@@ -14,7 +14,6 @@
     display: inline-block;
     width: 600px;
     margin: 30px calc( (100% - 600px) / 2 );
-    background-color: yellow;
 }
 
 
@@ -68,6 +67,7 @@
     display: inline-block;
     width: 1100px;
     margin: 30px calc( (100% - 1100px) / 2 );
+    text-align: center;
    
 }
     .footer > .socials {
@@ -75,6 +75,14 @@
         width: 100%;
         border-bottom: solid white 1px;
     }
+        .footer > .socials > a {
+            color: white;
+            font-size: 20px;
+            line-height: 20px;
+            padding: 10px;
+            text-decoration: none;
+        }
+
 
     .footer > .footer-content {
         display: inline-block;
