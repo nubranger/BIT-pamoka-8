@@ -12,8 +12,8 @@
 **************************************/
 .hero {
     display: inline-block;
-    width: 1100px;
-    margin: 30px calc( (100% - 1100px) / 2 );
+    width: 600px;
+    margin: 30px calc( (100% - 600px) / 2 );
     background-color: yellow;
 }
 
@@ -25,20 +25,37 @@
     display: inline-block;
     width: 1100px;
     margin: 30px calc( (100% - 1100px) / 2 );
-    background-color: yellow;
+    
 }
     .content > .left {
         display: inline-block;
         width: 50%;
-        background-color: turquoise;
         float: left;
     }
     .content > .right {
         display: inline-block;
         width: 40%;
-        background-color: tomato;
         float: right;
     }
+
+    .content h3 {
+        display: inline-block;
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .content p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+        .content p > a {
+            color: rgb(253, 13, 125);
+            text-decoration: none;
+        }
 
 
 
@@ -51,7 +68,7 @@
     display: inline-block;
     width: 1100px;
     margin: 30px calc( (100% - 1100px) / 2 );
-    background-color: yellow;
+   
 }
     .footer > .socials {
         display: inline-block;
