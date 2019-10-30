@@ -1,0 +1,48 @@
+body{
+    
+}
+header {
+    display: inline-block;
+    width: 100%;
+    background-image: url(../img/groceries.jpg);
+}
+    .contact {
+        display: inline-block;
+        width: 100%;
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        
+        color: rgba(255, 255, 255, 0.5);
+    }
+        .telephone {
+            display: inline-block;
+            width: 33%;
+        }
+            .telephone > fa {
+                display: inline-block;
+            }
+            .telephone > p {
+                display: inline-block;
+            }
+        .email {
+            display: inline-block;
+            width: 33%;
+        }
+            .email > a {
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+            }
+        .open-hours {
+            display: inline-block;
+           width: 33%;
+        }
+    .menu {
+        display: inline-block;
+        width: 100%;
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, 0.0);
+        padding: 20px;
+        
+        color: rgba(255, 255, 255, 0.5);
+    }
