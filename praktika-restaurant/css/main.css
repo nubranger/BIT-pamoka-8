@@ -9,7 +9,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border-bottom: rgba(255, 255, 255, 0.2) solid 2px;
+    
     
 }
     .contact {
@@ -118,16 +118,62 @@ header {
         text-align: center;
         color:white;
         width: 100%;
-        
-        
+        border-bottom: rgba(255, 255, 255, 0.2) solid 2px;
     }
         .present  > h1 {
             display: inline-block;
             color: rgba(216, 166, 100, 0.5);
             font-size: 40px;
-            margin: 20px;
+            margin-top: 80px;
+            margin-bottom: 20px;
             width: 100%;
             font-family: 'Indie Flower', cursive;
-                }
-
+        }
+        .present  > h2 {
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 30px;
+            width: 100%;
+            font-family: 'Indie Flower', cursive;
+            margin-bottom: 80px;
             
+        }
+    .food-list {
+        display: inline-block;
+        width: 100%;
+        color:white;
+        
+
+    }
+        .food-list ul {
+            display: inline-block;
+            float: left;
+            width: 49%;
+            margin-left: 25%;
+            
+        }
+            .food-list li { 
+                display: inline-block;
+                float: left;
+                text-align: center;
+                margin: 8px;
+                
+            }
+            .food-list img { 
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+
+            .food-list img:hover {
+                display: inline-block;
+                width: 150px;
+                height: 150px;
+                transition: 0.7s;  
+            }
+
+            .food-list .food-name {
+               font-size: 20px;
+               color: rgba(216, 166, 100, 0.8); 
+            }   
