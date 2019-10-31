@@ -13,8 +13,52 @@
 .hero {
     display: inline-block;
     width: 600px;
-    margin: 30px calc( (100% - 600px) / 2 );
+    margin: 60px calc( (100% - 600px) / 2 );
+    text-align: center;
 }
+    .container.bg-img {
+        background-image: url(../img/back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    .hero > img {
+        display: inline-block;
+        margin-bottom: 40px;
+        
+    }
+    .hero > h1 {
+        display: inline-block;
+        width: 100%;
+        font-size: 80px;
+        line-height: 80px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .hero > p {
+        display: inline-block;
+        width: 100%;
+        font-size: 23px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    .hero > .clock {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .hero > form {
+        display: inline-block;
+        width: 90%;
+        margin: 0 5% 20px;
+        
+    }
+    .hero > mouse {
+        display: inline-block;
+    }
+
 
 
 /*************************************
