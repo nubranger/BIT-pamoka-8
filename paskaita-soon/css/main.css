@@ -141,5 +141,20 @@
         display: inline-block;
         width: 600px;
         margin: 30px calc( (100% - 600px) / 2 ) 0;
-        
+        color: #fffa;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer > .footer-content a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer > .footer-content img {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .footer > .footer-content span.bars {
+        display: inline-block;
+        margin-bottom: 30px;
     }
