@@ -74,13 +74,21 @@
         display: inline-block;
         width: 100%;
         border-bottom: solid white 1px;
+        padding-bottom: 20px;
     }
         .footer > .socials > a {
+            display: inline-block;
+            width: 40px;;
             color: white;
             font-size: 20px;
             line-height: 20px;
             padding: 10px;
             text-decoration: none;
+        }
+        .footer > .socials > a:hover {
+            background-color: white;
+            color: teal;
+            border-radius: 50%;
         }
 
 
