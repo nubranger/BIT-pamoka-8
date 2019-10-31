@@ -43,6 +43,7 @@
         font-size: 23px;
         line-height: 25px;
         margin-bottom: 60px;
+        color: gray;
     }
     .hero > .clock {
         display: inline-block;
