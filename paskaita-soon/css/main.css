@@ -4,46 +4,44 @@
 }
 
 .bg-blue {
-    background-color: rgb(81, 81, 231);
+    background-color: #03A9F4;
 }
 
-/*************************************
-* HERO
-**************************************/
+/***********************
+ * HERO
+ ***********************/
 .hero {
     display: inline-block;
     width: 600px;
-    margin: 60px calc( (100% - 600px) / 2 );
+    margin: 60px calc( (100% - 600px) / 2 ) 30px;
     text-align: center;
 }
     .container.bg-img {
+        min-height: 100vh;
         background-image: url(../img/back.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
-        height: 100vh;
+        background-position: bottom center;
         background-attachment: fixed;
     }
     .hero > img {
         display: inline-block;
         margin-bottom: 40px;
-        
     }
     .hero > h1 {
         display: inline-block;
         width: 100%;
+        margin-bottom: 20px;
         font-size: 80px;
         line-height: 80px;
         text-transform: uppercase;
-        margin-bottom: 20px;
     }
     .hero > p {
         display: inline-block;
         width: 100%;
-        font-size: 23px;
-        line-height: 25px;
         margin-bottom: 60px;
-        color: gray;
+        font-size: 23px;
+        line-height: 28px;
     }
     .hero > .clock {
         display: inline-block;
@@ -54,22 +52,28 @@
         display: inline-block;
         width: 90%;
         margin: 0 5% 20px;
-        
     }
-    .hero > mouse {
+        .hero > form > input {
+            background-color: transparent;
+            color: #fff;
+            border-bottom-color: #fff;
+            outline: none;
+        }
+        .hero > form > input::placeholder {
+            color: #fff;
+        }
+    .hero > .mouse {
         display: inline-block;
     }
 
 
-
-/*************************************
-* MAIN CONTENT
-**************************************/
+/***********************
+ * MAIN CONTENT
+ ***********************/
 .content {
     display: inline-block;
     width: 1100px;
-    margin: 30px calc( (100% - 1100px) / 2 );
-    
+    margin: 60px calc( (100% - 1100px) / 2 );
 }
     .content > .left {
         display: inline-block;
@@ -81,14 +85,12 @@
         width: 40%;
         float: right;
     }
-
     .content h3 {
         display: inline-block;
         width: 100%;
-        text-transform: uppercase;
         margin-bottom: 30px;
+        text-transform: uppercase;
     }
-
     .content p {
         display: inline-block;
         width: 100%;
@@ -97,46 +99,49 @@
         line-height: 22px;
     }
         .content p > a {
-            color: rgb(253, 13, 125);
+            color: red;
             text-decoration: none;
         }
+    .content form > .btn {
+        float: right;
+    }
 
 
-
-
-/*************************************
-* FOOTER
-**************************************/
-
+/***********************
+ * FOOTER
+ ***********************/
 .footer {
     display: inline-block;
     width: 1100px;
     margin: 30px calc( (100% - 1100px) / 2 );
     text-align: center;
-   
+    position: relative;
 }
+    .footer > .btn {
+        position: absolute;
+        top: -60px;
+        right: -20px;
+    }
     .footer > .socials {
         display: inline-block;
         width: 100%;
-        border-bottom: solid white 1px;
         padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
     }
         .footer > .socials > a {
             display: inline-block;
-            width: 40px;;
-            color: white;
+            width: 40px;
+            padding: 10px;
+            color: #fff;
             font-size: 20px;
             line-height: 20px;
-            padding: 10px;
             text-decoration: none;
         }
-        .footer > .socials > a:hover {
-            background-color: white;
-            color: teal;
-            border-radius: 50%;
-        }
-
-
+            .footer > .socials > a:hover {
+                background-color: #fff;
+                color: #03A9F4;
+                border-radius: 50%;
+            }
     .footer > .footer-content {
         display: inline-block;
         width: 600px;
@@ -145,16 +150,32 @@
         font-size: 16px;
         line-height: 32px;
     }
-    .footer > .footer-content a {
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-    }
-    .footer > .footer-content img {
-        display: inline-block;
-        margin-bottom: 30px;
-    }
-    .footer > .footer-content span.bars {
-        display: inline-block;
-        margin-bottom: 30px;
-    }
+        .footer > .footer-content a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer > .footer-content > img {
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .footer > .footer-content > div {
+            display: inline-block;
+            width: 100%;
+            line-height: 16px;
+        }
+            .footer span {
+                display: inline-block;
+            }
+            .footer span.bars {
+                display: inline-block;
+                margin: 0 10px;
+                padding: 0 10px;
+                border: none;
+                border-left: 1px solid #fff;
+                border-right: 1px solid #fff;
+            }
+        .footer > .footer-content > p {
+            display: inline-block;
+            width: 100%;
+        }
