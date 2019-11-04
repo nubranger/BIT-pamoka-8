@@ -215,6 +215,13 @@ header {
         display: inline-block;
         line-height: 40px;
         font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+    .content > .left > a {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgba(216, 166, 100, 0.8); 
 
     }
 .content .right {
@@ -255,12 +262,11 @@ header {
     .footer > .socials {
         display: inline-block;
         width: 100%;
-       
         padding-bottom: 20px;
        
             
     }
-        .footer > .socials > a {
+       footer > .footer > .socials > a {
             display: inline-block;
             width: 40px;;
             color: white;
@@ -275,6 +281,11 @@ header {
             border-radius: 50%;
             transition: 1s;
         }
+
+    .footer-content a {
+        text-decoration: none;
+        color: rgba(255, 145, 0, 0.5);
+    }
 
 
  
